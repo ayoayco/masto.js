@@ -9,6 +9,7 @@ import type {
   Poll,
   Tag,
 } from '.';
+import { FilterResult } from './filter-result';
 
 export type StatusVisibility = 'public' | 'unlisted' | 'private' | 'direct';
 
